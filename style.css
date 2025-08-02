@@ -54,17 +54,27 @@ font-size: 20px;
 }
 #Buttons button:active{
    transform: scale(1);
-   box-shadow: 4px,4px,4px,4px(0,0,0,0.7);
+
 }
 #Screen:focus{
   outline: none;
   
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+
+ 
   #Calculator
   {
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 3px;
+    margin-left: 80px;
+    padding: 10px;
   }
+  #Screen{
+    
+    height: 30px;
+  }
+  #Buttons button{
+    font-size: 10px;
+  } 
 
 }
