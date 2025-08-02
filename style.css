@@ -60,3 +60,11 @@ font-size: 20px;
   outline: none;
   
 }
+@media (max-width: 768px) {
+  #Calculator
+  {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+}
